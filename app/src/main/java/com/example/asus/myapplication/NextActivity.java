@@ -28,5 +28,11 @@ public class NextActivity extends Activity{
             output3.setText("Hello3: "+mainObject.string3);
             output4.setText("Hello4: "+mainObject.string4);
         }
+
+        doSomething();
+    }
+
+    private void doSomething(){
+        //doSomething here
     }
 }

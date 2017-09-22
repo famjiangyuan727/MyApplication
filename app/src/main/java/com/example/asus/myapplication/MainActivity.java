@@ -41,7 +41,13 @@ public class MainActivity extends Activity{
 
                 // Opening the activity
                 startActivity(intent);
+
+                doNothing();
             }
         });
+    }
+
+    private void doNothing(){
+        //do nothing here
     }
 }
